@@ -1,0 +1,18 @@
+{
+  "name": "builder-plugin-weex",
+  "main": "./lib/builder-plugin-weex",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "builder-plugin-weex:toggle"
+  },
+  "repository": "https://github.com/atom/builder-plugin-weex",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

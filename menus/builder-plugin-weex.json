@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle builder-plugin-weex",
+        "command": "builder-plugin-weex:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "builder-plugin-weex",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "builder-plugin-weex:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
