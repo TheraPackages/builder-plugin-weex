@@ -8,7 +8,7 @@
     "weex",
     "builder"
   ],
-  "-activationCommands": {
+  "--activationCommands": {
     "atom-workspace": "builder-plugin-weex:toggle"
   },
   "repository": "https://github.com/atom/builder-plugin-weex",
@@ -19,5 +19,13 @@
   "dependencies": {
     "webpack": "^1.13.1",
     "weex-loader": "^0.4.4"
+  },
+  "providedServices": {
+    "thera-builder-weex": {
+      "description": "Build server for weex.",
+      "versions": {
+        "1.0.0": "provideBuildService"
+      }
+    }
   }
 }
