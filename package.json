@@ -20,13 +20,20 @@
     "webpack": "^1.13.1",
     "weex-loader": "^0.4.4",
     "mkdirp": "^0.5.1",
-    "node-watch": "^0.3.5"
+    "node-watch": "0.5.4"
   },
   "providedServices": {
     "thera-builder-weex": {
       "description": "Build server for weex.",
       "versions": {
         "1.0.0": "provideBuildService"
+      }
+    }
+  },
+  "consumedServices": {
+    "thera-project-config": {
+      "versions": {
+        "1.0.0": "consumeProjectConfigService"
       }
     }
   }

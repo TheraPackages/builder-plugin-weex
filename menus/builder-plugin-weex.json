@@ -15,7 +15,19 @@
           "label": "builder-plugin-weex",
           "submenu": [
             {
-              "label": "Toggle",
+              "label": "Build (watch)",
+              "command": "builder-plugin-weex:build-watch"
+            },
+            {
+              "label": "Build (debug)",
+              "command": "builder-plugin-weex:build-debug"
+            },
+            {
+              "label": "Build (release)",
+              "command": "builder-plugin-weex:build-release"
+            },
+            {
+              "label": "Show Build Panel",
               "command": "builder-plugin-weex:toggle"
             }
           ]
