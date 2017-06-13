@@ -19,12 +19,11 @@
   "dependencies": {
     "webpack": "^1.13.1",
     "weex-loader": "^0.4.4",
-    "mkdirp": "^0.5.1",
-    "node-watch": "0.5.4"
+    "mkdirp": "^0.5.1"
   },
   "providedServices": {
-    "thera-builder-weex": {
-      "description": "Build server for weex.",
+    "thera-builder-service": {
+      "description": "Build service for weex.",
       "versions": {
         "1.0.0": "provideBuildService"
       }
@@ -32,6 +31,7 @@
   },
   "consumedServices": {
     "thera-project-config": {
+      "description": "Consume project config object",
       "versions": {
         "1.0.0": "consumeProjectConfigService"
       }

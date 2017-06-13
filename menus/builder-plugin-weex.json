@@ -15,10 +15,6 @@
           "label": "builder-plugin-weex",
           "submenu": [
             {
-              "label": "Build (watch)",
-              "command": "builder-plugin-weex:build-watch"
-            },
-            {
               "label": "Build (debug)",
               "command": "builder-plugin-weex:build-debug"
             },
