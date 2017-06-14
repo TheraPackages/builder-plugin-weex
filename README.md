@@ -9,12 +9,20 @@ This package provides two build production (debug and release) for weex project 
 ### Config build types
 
 ```
-buildTypes: {
-  debug: {
-    ...
+{
+  "main": "index.vue",
+  ...
+  "build": {
+    "apply": "debug",
+    "types": {
+      "debug": {
+        "minify": false
+      },
+      "release": {
+        "minify": true
+      }
+    }
   },
-  release: {
-    ...
-  }
+  ...
 }
 ```
