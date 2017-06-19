@@ -1,7 +1,7 @@
 {
   "name": "builder-plugin-weex",
   "main": "./lib/builder-plugin-weex",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A short description of your package",
   "keywords": [
     "thera",
